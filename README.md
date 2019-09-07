@@ -1,10 +1,23 @@
-# Machine Learning Financial Laboratory (mlfinlab)
-MLFinLab is an open source package based on the research of Dr Marcos Lopez de Prado in his new book
-Advances in Financial Machine Learning. This implementation started out as a platform for which Ashutosh and
-Jacques could base their research project on for their [Masters in Financial Engineering at WorldQuant University](https://wqu.org/).
+<div align="center">
+  <img src="https://raw.githubusercontent.com/hudson-and-thames/mlfinlab/master/.github/logo/hudson_and_thames_logo.png" height="300"><br>
+</div>
 
-As we were working through the book we saw the opportunity to code up the implementations as well answer the 
-questions at the back of every chapter. 
+-----------------
+# Machine Learning Financial Laboratory (mlfinlab)
+[![Build Status](https://travis-ci.com/hudson-and-thames/mlfinlab.svg?branch=master)](https://travis-ci.com/hudson-and-thames/mlfinlab)
+[![codecov](https://codecov.io/gh/hudson-and-thames/mlfinlab/branch/master/graph/badge.svg)](https://codecov.io/gh/hudson-and-thames/mlfinlab)
+![pylint Score](https://mperlet.github.io/pybadge/badges/10.svg)
+[![License: BSD3](https://img.shields.io/github/license/hudson-and-thames/mlfinlab.svg)](https://opensource.org/licenses/BSD-3-Clause)
+
+[![Documentation Status](https://readthedocs.org/projects/mlfinlab/badge/?version=latest)](https://mlfinlab.readthedocs.io/en/latest/?badge=latest)
+[![PyPi](https://img.shields.io/pypi/v/mlfinlab.svg)]((https://pypi.org/project/mlfinlab/))
+[![Downloads](https://img.shields.io/pypi/dm/mlfinlab.svg)]((https://pypi.org/project/mlfinlab/))
+[![Python](https://img.shields.io/pypi/pyversions/mlfinlab.svg)]((https://pypi.org/project/mlfinlab/))
+
+MLFinLab is an open source package based on the research of Dr Marcos Lopez de Prado in his new book
+Advances in Financial Machine Learning. This implementation started out as a spring board for a research project in the [Masters in Financial Engineering programme at WorldQuant University](https://wqu.org/) and has grown into a mini research group called [Hudson and Thames Quantitative Research](https://hudsonthames.org/) (not affiliated with the university).
+
+The following is the online documentation for the package: [read-the-docs](https://mlfinlab.readthedocs.io/en/latest/#).
 
 ## Barriers to Entry
 As most of you know, getting through the first 3 chapters of the book is challenging as it relies on HFT data to 
@@ -19,17 +32,34 @@ For those of you interested in working with a two years of sample tick, volume, 
 
 You should be able to work on a few implementations of the code with this set. 
 
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/hudson-and-thames/research/master/Chapter3/readme_image.png" height="350"><br>
+</div>
+
 ---
 
-## Notes
-* Added Chapter 5 code (Frac Diff)
-* Added Chapter 3 code (Labeling)
-* Added Imbalance and Run bars.
-* Added standard bar types (tick, volume, dollar). 
-* Works on BIG csv files 25Gigs and up.
+## Progress
+
+**Part 4: Useful Financial Features**
+* Working on Chapter 19: Microstructural Features (Maksim)
+
+**Part 3: Backtesting**
+* Done Chapter 16: Asset Allocation
+* Done Chapter 10: Bet Sizing
+
+**Part 2: Modelling**
+* Done Chapter 8: Feature Importance
+* Done Chapter 7: Cross-Validation
+* Done Chapter 6: Ensemble Methods (Sequential Bootstrap Ensemble)
+
+**Part 1: Data Analysis**
+* Done Chapter 5: Fractional Differentiation
+* Done Chapter 4: Sample Weights
+* Done Chapter 3: Labeling
+* Done Chapter 2: Data Structures
 * Purchased high quality raw tick data.
 * Email us if you would like a sample of the standard bars.
-* Next we are busy adding the code for the labeling. See [research repo](https://github.com/hudson-and-thames/research) for the Q&A work in progress for chapter 3.
 
 ---
 
@@ -77,10 +107,8 @@ On your local machine open the terminal and cd into the working dir.
 
 * **Ashutosh Singh** - [LinkedIn](https://www.linkedin.com/in/ashusinghpenn/)
 * **Jacques Joubert** - [LinkedIn](https://www.linkedin.com/in/jacquesjoubert/)
-
-## Core Contributors
-
 * **Oleksandr Proskurin** - [LinkedIn](https://www.linkedin.com/in/proskurinolexandr/)
+
 
 ## Additional Research Repo
 BlackArbsCEO has a great repo based on de Prado's research. It covers many of the questions at the back of every chapter and was the first source on Github to do so. It has also been a good source of inspiration for our research. 
@@ -88,12 +116,12 @@ BlackArbsCEO has a great repo based on de Prado's research. It covers many of th
 * [Adv Fin ML Exercises](https://github.com/BlackArbsCEO/Adv_Fin_ML_Exercises)
 
 ## Contact us
-At the moment the project is still rather small and thus I would recommend getting in touch with us over email so that we can further discuss the areas of contribution that interest you the most. As soon as we get to more than 4 maintainers we will switch over to a slack channel.
+At the moment the project is still rather small and thus I would recommend getting in touch with us over email so that we can further discuss the areas of contribution that interest you the most. We have a slack channel where we all communicate.
 
-For now you can get hold us at: hudsonthames19@gmail.com
+For now you can get hold us at: research@hudsonthames.org
 
 Looking forward to hearing from you!
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.txt](https://github.com/hudson-and-thames/mlfinlab/blob/master/LICENSE.txt) file for details
+This project is licensed under the 3-Clause BSD License - see the [LICENSE.txt](https://github.com/hudson-and-thames/mlfinlab/blob/master/LICENSE.txt) file for details.

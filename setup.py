@@ -34,7 +34,7 @@ setup(
     # For a discussion on single-sourcing the version across setup.py and the
     # project code, see
     # https://packaging.python.org/en/latest/single_source_version.html
-    version='0.1.0',  # Required
+    version='0.4.1',  # Required
 
     # This is a one-line description or tagline of what your project does. This
     # corresponds to the "Summary" metadata field:
@@ -67,15 +67,15 @@ setup(
     #
     # This field corresponds to the "Home-Page" metadata field:
     # https://packaging.python.org/specifications/core-metadata/#home-page-optional
-    url='https://github.com/hudson-and-thames',  # Optional
+    url='https://www.hudsonthames.org/',  # Optional
 
     # This should be your name or the name of the organization which owns the
     # project.
-    author='Hudson and Thames Development Team',  # Optional
+    author='Hudson and Thames Quantitative Research',  # Optional
 
     # This should be a valid email address corresponding to the author listed
     # above.
-    author_email='hudsonthames19@gmail.com',  # Optional
+    author_email='research@hudsonthames.org',  # Optional
 
     # Classifiers help users find your project by categorizing it.
     #
@@ -98,7 +98,7 @@ setup(
         'Topic :: Office/Business :: Financial :: Investment',
 
         # Pick your license as you wish
-        'License :: OSI Approved :: MIT License',
+        'License :: OSI Approved :: BSD License',
 
         # Specify the Python versions you support here. In particular, ensure
         # that you indicate whether you support Python 2, Python 3 or both.
@@ -193,10 +193,11 @@ setup(
     # maintainers, and where to support the project financially. The key is
     # what's used to render the link text on PyPI.
     project_urls={  # Optional
+        'Documentation': 'https://mlfinlab.readthedocs.io/en/latest/',
         'Bug Reports': 'https://github.com/hudson-and-thames/mlfinlab/issues',
         'Project Boards': 'https://github.com/orgs/hudson-and-thames/projects',
         'Source': 'https://github.com/hudson-and-thames/mlfinlab',
-        'Blog': 'http://www.quantsportal.com/blog-page/',
+        'Blog': 'https://hudsonthames.org/blog/',
     },
 
     # Create package
